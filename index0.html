@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+
+    <head>
+        <title>GameTeams</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <nav id="header">
+        <p><img src="png/gameteam1.jpg"></p>
+        <ul>
+            <li><a href="file:///C:/Users/mateu/OneDrive/Documentos/projetogames/indexc.html">Equipe</a></li>
+        </ul>
+        <ul>
+            <li><a href="file:///C:/Users/mateu/OneDrive/Documentos/projetogames/index.html">Comunidade</a></li>
+        </ul>
+        <ul>
+            <li><a href="file:///C:/Users/mateu/OneDrive/Documentos/projetogames/index3.html">Home</a></li>
+        </ul>
+    </nav>
+
+
+    <div id="form">
+
+
+        <br>
+        <h1>Iniciar Sessão</h1>
+        </br>
+
+        <input type="Usuario" placeholder="Usuario">
+
+        <br></br>
+
+        <input type="password" placeholder="senha" class="senha">
+        <img src="png/olhoaberto.png" class="btn">
+
+        <button>Entrar</button>
+        <br></br>
+        <a href="file:///C:/Users/mateu/OneDrive/Documentos/projetogames/index2.html">
+            <h2>Esqueceu sua senha?</h2>
+        </a>
+
+
+        <style>
+            #form {
+                width: 400px;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 0 20px rgba(36, 34, 34);
+                transform: translate(-310%, -120%);
+                text-align: left;
+            }
+            
+            input {
+                width: 100%;
+                padding: 10px;
+                border-radius: 6px;
+                font-size: 15px;
+                outline: none;
+                background-color: white;
+                text-align: left;
+            }
+            
+            h2 {
+                width: 100%;
+                font-size: 15px;
+                color: white;
+                text-align: center;
+            }
+            
+            h1 {
+                font-size: 40px;
+                color: white;
+            }
+            
+            div {
+                position: absolute;
+                top: 100%;
+                left: 100%;
+                transform: translate(+150%, -0%);
+                border-radius: 15px;
+                padding: 50px;
+            }
+            
+            #form img {
+                cursor: pointer;
+                width: 50px;
+                height: 50px;
+                transform: translate(+580%, -92%);
+            }
+            
+            button {
+                padding: 2px;
+                width: 100%;
+                height: -20%;
+                text-align: center;
+                font-size: 29px;
+                border-radius: 10px;
+                background: #0e52b8;
+                cursor: pointer;
+                border: none;
+            }
+            
+            button:hover {
+                background-color: #146cf0;
+            }
+        </style>
+
+        <script>
+            const senha = document.querySelector('.senha');
+            const btn = document.querySelector('.btn');
+            btn.onclick = () => {
+                if (senha.type === 'password') {
+                    senha.type = 'text'
+                    btn.src = 'png/olhofechado.png'
+                } else {
+                    senha.type = 'password'
+                    btn.src = 'png/olhoaberto.png'
+                }
+            }
+        </script>
+
+    </div>
+
+    <div id="row">
+
+        <h3>Cadastra-se no Gamesteam</h3>
+        <h4>para achar seu esquadrão imbatível</h4>
+
+        <img src="png/xboxtwo.jpg" width="550">
+        <br></br>
+        <a href="file:///C:/Users/mateu/OneDrive/Documentos/projetogames/index1.html">
+            <h5>Cadastrar-se</h5>
+        </a>
+
+
+        <style>
+            #row {
+                transform: translate(-120%, -107%);
+                text-align: right;
+            }
+            
+            #row img {
+                border-radius: 15px;
+            }
+            
+            h3 {
+                color: white;
+                font-size: 18px;
+                text-align: center;
+            }
+            
+            h4 {
+                color: white;
+                font-size: 18px;
+                text-align: center;
+            }
+            
+            h5 {
+                color: white;
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+
+    </div>
+
+
+
+    <div class="boxs">
+
+        <br></br>
+        <a href="#">
+            <h6>© 2022 Gamesteam Corporation. Todos os direitos reservados. Todas as marcas são propriedade dos seus respectivos donos no BR e em outros países. Disponivel em todas as plataformas.</h6>
+        </a>
+        <a href="#">
+            <h6>Política de Privacidade / Termos Legais / Acordo de Assinatura do Steam / Reembolsos / Cookies </h6>
+        </a>
+
+        <h8>________________________________________________________________________________________________________________________________________________________________________________</h8>
+
+        <br></br>
+        <a href="#">
+            <h7>Sobre a Gamesteam / Empregos / Steamworks / Distribuição no Gamesteam / Suporte / Vales-presente | </h7>
+
+            <img src="png/discord.png" width="30px" height="30px">
+            <h7>|</h7>
+            <img src="png/youtube.png" width="30px" height="30px">
+            <h7>|</h7>
+            <img src="png/instagram.png" width="30px" height="30px">
+        </a>
+
+
+        <style>
+            .boxs {
+                transform: translate(-0%, -0%);
+                position: absolute;
+                width: 100%;
+                left: 0;
+                right: 0;
+                padding: 30px 0 60px 0;
+                border-radius: 0;
+                margin: 0;
+                background-color: rgba(22, 21, 21);
+                text-align: center;
+            }
+            
+            h6 {
+                cursor: auto;
+                font-size: 13px;
+                color: white;
+            }
+            
+            h7 {
+                cursor: auto;
+                font-size: 13px;
+                color: white;
+            }
+            
+            h8 {
+                color: white;
+                cursor: default;
+            }
+        </style>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
